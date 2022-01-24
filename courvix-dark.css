@@ -1,0 +1,84 @@
+/**
+ * @name Courvix-Dark
+ * @author Courvix
+ * @description A theme based on Deep Ocean for JetBrains IDE's
+ */
+
+ 
+@import 'https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;1,600&display=swap';
+
+ :root {
+     --Chat-Font-Used: 'Source Code Pro', normal ;
+     --Chat-Font-Size: 10px;
+     --background-mentioned-hover: #023469 --popout-status-icon: none;
+     --popout-status-mask: none;
+     --avatar-radius: 10%;
+     --colored-emoji: grayscale(0%);
+     --user-buttons-spacing: 10px;
+     --chat-buttons: #0063cc;
+     --role-circle: 7px;
+     --tooltips: block;
+     --discord-logo: none;
+     --divider-color: #0063cc 
+}
+ .mentioned-Tre-dv {
+     position: relative;
+     background-color: #023469;
+     border-radius: 0.4rem;
+}
+ :not([class="hljs"]):not(code){
+    font-family: var(--Chat-Font-Used)!important;
+}
+ .markup:not(code) {
+    font-size: var(--Chat-Font-Size)!important;
+}
+ .note-3HfJZ5, .bodyTitle-Y0qMQz:nth-child(3), .footer-1fjuF6 {
+     display: none;
+}
+ .rolesList-22qj2L {
+     margin-bottom: 0px;
+}
+ .peopleColumn-29fq28 {
+    background: #0f111a;
+}
+ .body-1ld4H7 {
+    background: #0f111a;
+}
+ .selected {
+    color: #0063cc;
+}
+ .topSectionPlaying-1J5E4n {
+    background: #0063cc;
+}
+ .headerPlaying-j0WQBV {
+    background: #0063cc;
+}
+ .theme-dark .headerNormal-T_seeN {
+    background-color: #0a0b11;
+}
+ .theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6 {
+    background-color: #0a0b11;
+}
+ .divider-IqmEqJ {
+    border-color: #0063cc;
+}
+ .unreadPill-3nEWYM {
+    background-color: #0063cc
+}
+ .theme-dark {
+     --background-tertiary: #0c0e15 !important;
+     --background-secondary: #0c0e15 !important;
+     --background-secondary-alt: #0c0e15 !important;
+     --background-primary: #0f111a !important;
+     --channeltextarea-background: #0c0e15 !important;
+     --background-accent: #0c0e15 !important;
+     --background-modifier-hover: #0c0e15 !important;
+     --background-modifier-active: #0c0e15 !important;
+     --background-modifier-selected: #0063cc !important;
+     --background-floating: #0c0e15 !important;
+     --scrollbar-auto-thumb: #0063cc !important;
+     --scrollbar-auto-track: #0a0b11 !important;
+     --scrollbar-thin-thumb: #0c0e15 !important;
+     --spotify-color: #0c0e15 !important;
+     --elevation-low: none;
+}
